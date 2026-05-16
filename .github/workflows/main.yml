@@ -37,3 +37,7 @@ jobs:
       - name: Debug files
         run: |
           ls -al
+
+      - name: Check images
+        run: |
+          docker images
