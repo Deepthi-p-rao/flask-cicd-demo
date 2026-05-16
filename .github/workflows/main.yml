@@ -28,7 +28,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t flask-cicd-app .
+          docker build -t flask-cicd-app:v1 .
 
       - name: Run Docker Container
         run: |
